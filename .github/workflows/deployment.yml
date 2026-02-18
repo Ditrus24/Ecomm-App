@@ -1,6 +1,6 @@
 name : Continuous Deployment
 
-# only runs when the is actually merged to main branch
+# Runs when code is pushed to main branch
 on :
   push:
     # only when there is a push on main branch
